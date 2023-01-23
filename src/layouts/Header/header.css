@@ -1,0 +1,39 @@
+.Header {
+    
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    align-items: center;
+    box-shadow: 5px 5px 2.5px lightblue;
+    background-color: whitesmoke;
+
+}
+
+.Header > *{
+    margin: 1.5% 0 1.5% 0;
+}
+
+.logo {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: 0 0 0 10%;
+}
+
+.logo img {
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+}
+
+.logo p {
+    font-size: large;
+    font-weight:bold;
+    color: blue;
+}
+
+.logo p span {
+    color: red;
+}
+

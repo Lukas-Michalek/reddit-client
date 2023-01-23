@@ -1,0 +1,11 @@
+.Main {
+
+    
+    box-shadow: 5px 5px 2.5px lightblue;
+    background-color: whitesmoke;
+    float: left;
+    margin: 2%;
+    border: solid black 5px;
+    width: 74%;
+}
+

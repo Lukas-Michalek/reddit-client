@@ -1,0 +1,30 @@
+.searchBar {
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBar input {
+    width: 250px;
+    border-radius: 10px;
+    outline-width: 0;
+    position:relative;
+    border: solid grey 1px;
+}
+
+button {
+    background-color: whitesmoke;
+    border: none;
+    transition: all 1s;
+    transform-origin: 50% 50%;
+    margin: 0 0 0 4.5%;
+}
+
+button:hover {
+    transform: scale(1.75);
+}
+
+#searchButtonImage {
+    width: 20px;
+    height: 20px;
+}
