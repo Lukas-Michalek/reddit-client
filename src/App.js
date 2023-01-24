@@ -9,35 +9,35 @@ import { SideBar } from './layouts/SideBar/SideBar';
 
 const App = () => {
 
-  const [articles, setArticles] = useState([]);
-  const [subreddit, setSubreddit ] = useState('');
+  // const [articles, setArticles] = useState([]);
+  // const [subreddit, setSubreddit ] = useState('');
 
-  useEffect( () => {
-    fetch("https://www.reddit.com/r/webdev.json")
-    .then( result => {
-      if(result.status !== 200){    // If data are not fetched correctly
-        console.log("ERROR FETCHING DATA")
-        return; 
-      }
+  // useEffect( () => {
+  //   fetch("https://www.reddit.com/r/webdev.json")
+  //   .then( result => {
+  //     if(result.status !== 200){    // If data are not fetched correctly
+  //       console.log("ERROR FETCHING DATA")
+  //       return; 
+  //     }
 
-      // else request was fulfilled correctly
-      result.json().then(data => {
-        if ( data !== null){        // if there are some data
-          console.log(data);
-        }
-      })
-    })
-  },[subreddit])  // TODO=> Everytime subbredit changes useEffect will fire
+  //     // else request was fulfilled correctly
+  //     result.json().then(data => {
+  //       if ( data !== null){        // if there are some data
+  //         console.log(data);
+  //       }
+  //     })
+  //   })
+  // },[subreddit])  // TODO=> Everytime subbredit changes useEffect will fire
 
 
   return (
     <div className="App">
       
-      <div>
+      <div className='header__main'>
         <Header/>
       </div>
 
-      <div>
+      <div className='container'>
         <Main />
         <SideBar />
       </div>

@@ -1,0 +1,42 @@
+.rightNavBar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid green 5px; */
+    margin: 0 10% 0 0;
+    position:relative;
+}
+
+.rightNavBar ul li {
+    margin:0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rightNavBar a:hover{
+    color: goldenrod
+}
+
+
+
+
+.rightNavBar a {
+   
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px 0 5px;
+    color: rgb(84, 49, 210);
+    gap: 7px;
+    text-decoration: none;
+    
+
+}
+
+.rightNavBar img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,16 +1,17 @@
-.Header {
+.header {
     
     display: flex;
     flex-direction: row;
-    height: 5%;
+    height: 15vh;
     align-items: center;
     box-shadow: 5px 5px 2.5px lightblue;
     background-color: whitesmoke;
+    /* width: 100vh; */
 
 }
 
-.Header > *{
-    margin: 1.5% 0 1.5% 0;
+.header > *{
+    margin: 0.5% 0 0.5% 0;
 }
 
 .logo {
@@ -18,7 +19,7 @@
     flex-direction: row;
     text-align: center;
     align-items: center;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 5%;
 }
 
 .logo img {
@@ -27,13 +28,10 @@
     margin: 10px;
 }
 
-.logo p {
-    font-size: large;
-    font-weight:bold;
-    color: blue;
-}
 
-.logo p span {
+
+.logo h1 {
     color: red;
+  
 }
 

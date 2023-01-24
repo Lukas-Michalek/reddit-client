@@ -4,13 +4,13 @@ import searchButton from '../../assets/images/search.svg'
 
 export const SearchBar = () => {
   return (
-    <form onsubmit="event.preventDefault();" role="search" className="searchBar">
+    <form role="search" className="searchBar">
       <input
         id="search"
         // value=""
         type="search"
         placeholder="Search..."
-        autofocus
+        autoFocus
         required
       />
       <button type="submit" alt="Submit" >
